@@ -19,6 +19,13 @@ doskey ..=cd ..\$*
 doskey ...=cd ..\..\$*
 doskey ....=cd ..\..\..\$*
 
+:: Shortcuts
+doskey dl=cd %userprofile%\Downloads
+doskey dt=cd %userprofile%\Desktop
+doskey db=cd "%userprofile%\Dropbox (Hutson Inc)"
+doskey p=cd %userprofile%\projects
+doskey dot=cd %dotfiles%
+
 :: Generic aliases
 doskey cat=type $*
 doskey clear=cls
@@ -33,7 +40,7 @@ doskey rm=del $*
 :: Git aliases
 doskey ga=git add $*
 doskey ga.=git add . $*
+doskey gc=git commit $*
 doskey gmm=git merge master $*
-doskey gp=git push $*
 doskey gpu=git push -u $*
 doskey gs=git status $*
