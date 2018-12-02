@@ -3,17 +3,11 @@
 :: cb
 :: Copy a files contents to the clipboard
 
-set arg1="%1"
-
-if %arg1%=="" goto :help
+if [%1]==[] goto :help
 
 type %1 | clip
-goto :cleanup
+goto :EOF
 
 :help
 echo No args provided
-goto :cleanup
-
-:cleanup
-set arg1=
 goto :EOF
