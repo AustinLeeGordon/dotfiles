@@ -1,6 +1,33 @@
 [alias]
+    
+    # List aliases
+    aliases = config --get-regexp 
+    
+    # Amend the currently staged files to the latest commit
+    amend = commit --amend --reuse-message=HEAD
+
+    # Show all local and remote branches
+    branches = branch -a
+
+    # View abbreviated SHA and description of last 20 commits
+    l = log --pretty=oneline -n 20 --abbrev-commit
+
+    # Merge master into current branch
+    mm = merge master
+
+    # View last commit
     last = log -1 HEAD
+
+    # Reduce the number of times I think, "Is it `git log` or `git logs`...?"
     logs = log
+
+    # View current working tree status using the short format
+    s = status -s
+
+    # Unstage
     unstage = reset HEAD --
+
 [core]
+
+    # Make Notepad++ the default editor
     editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
