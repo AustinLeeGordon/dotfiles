@@ -13,18 +13,24 @@ if not exist %exepath% (
     goto :cleanup
 )
 
-set arg1="%1"
-
-if %arg1%=="" goto :help
+if [%1]==[] goto :help
+if [%1]==[help] goto :nochrome
+if [%1]==[--help] goto :nochrome
+if [%1]==[-h] goto :nochrome
+if [%2]==[--help] goto :nochrome
+if [%2]==[-h] goto :nochrome
 
 start chrome "http://127.0.0.1:4040" && %exepath% %*
 goto :cleanup
 
+:nochrome
+%exepath% %*
+goto :cleanup
+
 :help
-echo No args provided
+%exepath% help
 goto :cleanup
 
 :cleanup
-set arg1=
 set exepath=
 goto :EOF
