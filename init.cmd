@@ -41,6 +41,7 @@ doskey rm=del $*
 doskey ga=git add $*
 doskey ga.=git add . $*
 doskey gc=git commit $*
+doskey gcm=git commit -m $*
 doskey gmm=git merge master $*
 doskey gpu=git push -u $*
 doskey gs=git status -s $*
