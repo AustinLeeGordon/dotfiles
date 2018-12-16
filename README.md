@@ -26,10 +26,6 @@ To add startup scripts, open `Run` and type `shell:startup`, then paste a shortc
 
 Run `gitsync.cmd` in the `utils` directory to sync git settings.
 
-`git config --global user.name "<Your Username>"`
-
-`git config --global user.email <Your Email>`
-
 `git config --global commit.message %userprofile%\.gitmessage`
 
 ### Hyper Setup

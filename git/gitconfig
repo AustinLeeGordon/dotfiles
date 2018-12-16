@@ -31,3 +31,7 @@
 
     # Make Notepad++ the default editor
     editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+
+[user]
+    name = AustinLeeGordon
+    email = gordon.austin2@gmail.com
