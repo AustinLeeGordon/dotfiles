@@ -44,7 +44,10 @@ doskey gb=git branch $*
 doskey gc=git commit $*
 doskey gcm=git commit -m $*
 doskey gmm=git merge master $*
-doskey gpu=git push -u $*
+doskey gpl=git pull $*
+doskey gpu=git push $*
+doskey gpuu=git push -u $*
+doskey gpuuo=git push -u origin $*
 doskey gs=git status -s $*
 
 :: VS Code aliases
