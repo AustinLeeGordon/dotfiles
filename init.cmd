@@ -40,6 +40,7 @@ doskey rm=del $*
 :: Git aliases
 doskey ga=git add $*
 doskey ga.=git add . $*
+doskey gb=git branch $*
 doskey gc=git commit $*
 doskey gcm=git commit -m $*
 doskey gmm=git merge master $*
