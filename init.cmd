@@ -45,3 +45,7 @@ doskey gcm=git commit -m $*
 doskey gmm=git merge master $*
 doskey gpu=git push -u $*
 doskey gs=git status -s $*
+
+:: VS Code aliases
+doskey c.=code .
+doskey code.=code .

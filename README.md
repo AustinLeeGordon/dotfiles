@@ -35,6 +35,7 @@ Run `hypersync.cmd` in the `utils` directory to sync hyper settings.
 ### Global npm Modules
 
 - [nodetouch](https://github.com/isaacs/node-touch)
+- [public-ip-cli](https://github.com/sindresorhus/public-ip-cli)
 - [trash-cli](https://github.com/sindresorhus/trash-cli)
 
 Work Globals:
