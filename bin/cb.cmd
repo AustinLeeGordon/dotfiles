@@ -1,13 +1,19 @@
 @echo off
 
 :: cb
-:: Copy a files contents to the clipboard
+:: Clipboard shortcut
+:: Requires clipboard-cli (https://github.com/sindresorhus/clipboard-cli)
 
-if [%1]==[] goto :help
+for /f "delims=" %%a in ('where clipboard.cmd') do @set exepath=%%a
 
-type %1 | clip
-goto :EOF
+if not exist "%exepath%" (
+    echo You must install clipboard-cli https://github.com/sindresorhus/clipboard-cli in order to use this command
+    goto :cleanup
+)
 
-:help
-echo No args provided
+call %exepath% %*
+goto :cleanup
+
+:cleanup
+set exepath=
 goto :EOF

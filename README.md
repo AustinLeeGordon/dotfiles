@@ -21,26 +21,42 @@ To add startup scripts, open `Run` and type `shell:startup`, then paste a shortc
 - [nodetouch](https://github.com/isaacs/node-touch)
 - [Node.js](https://nodejs.org/en/)
 - [Notepad++](https://notepad-plus-plus.org/)
+- [VS Code](https://code.visualstudio.com/)
 
-### Git Setup
+### Sync Settings
 
-Run `gitsync.cmd` in the `utils` directory to sync git settings.
+Sync an individual setup using the commands below or step through all with `dotsync`.
+
+#### Git Setup
+
+Run `gitsync.cmd` in the `utils` directory to sync settings.
 
 `git config --global commit.message %userprofile%\.gitmessage`
 
-### Hyper Setup
+#### Hyper Setup
 
-Run `hypersync.cmd` in the `utils` directory to sync hyper settings.
+Run `hypersync.cmd` in the `utils` directory to sync settings.
 
-### Global npm Modules
+#### VS Code Setup
 
+Run `vscodesync.cmd` in the `utils` directory to sync settings and install extensions.
+
+#### NPM Setup
+
+Run `npmsync.cmd` in the `utils` directory to install global packages.
+
+Default Globals:
+
+- [empty-trash-cli](https://github.com/sindresorhus/empty-trash-cli)
 - [nodetouch](https://github.com/isaacs/node-touch)
 - [public-ip-cli](https://github.com/sindresorhus/public-ip-cli)
+- [serve](https://github.com/zeit/serve)
 - [trash-cli](https://github.com/sindresorhus/trash-cli)
 
 Work Globals:
 
 - [file-ranger](https://github.com/hutsoninc/file-ranger)
+- [gatsby-cli](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-cli)
 - [generator-hutson](https://github.com/hutsoninc/generator-hutson)
 
 ## License

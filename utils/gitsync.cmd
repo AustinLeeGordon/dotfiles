@@ -2,6 +2,7 @@
 
 :: gitsync
 :: Sync Git settings
+:: Requires Git (https://git-scm.com/downloads)
 
 set gitconfigpath=%userprofile%\.gitconfig
 set gitmessagepath=%userprofile%\.gitmessage
