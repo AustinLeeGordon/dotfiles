@@ -47,6 +47,7 @@ Run `npmsync.cmd` in the `utils` directory to install global packages.
 
 Default Globals:
 
+- [clipboard-cli](https://github.com/sindresorhus/clipboard-cli)
 - [empty-trash-cli](https://github.com/sindresorhus/empty-trash-cli)
 - [nodetouch](https://github.com/isaacs/node-touch)
 - [public-ip-cli](https://github.com/sindresorhus/public-ip-cli)
