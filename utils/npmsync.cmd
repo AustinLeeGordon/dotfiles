@@ -18,7 +18,7 @@ set /p installnpmpackages="Would you like to install global NPM packages? (y/n):
 
 if "%installnpmpackages%" == "y" (
     set installpackages=true
-    set packagelist=empty-trash touch public-ip-cli serve trash-cli
+    set packagelist=empty-trash touch public-ip-cli serve trash-cli wt-cli
 )
 
 set /p installworknpmpackages="Would you like to install work global NPM packages? (y/n):"

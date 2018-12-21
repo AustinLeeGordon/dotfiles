@@ -53,6 +53,7 @@ Default Globals:
 - [public-ip-cli](https://github.com/sindresorhus/public-ip-cli)
 - [serve](https://github.com/zeit/serve)
 - [trash-cli](https://github.com/sindresorhus/trash-cli)
+- [wt-cli](https://github.com/auth0/wt-cli)
 
 Work Globals:
 
