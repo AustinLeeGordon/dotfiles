@@ -50,6 +50,9 @@ doskey gpuu=git push -u $*
 doskey gpuuo=git push -u origin $*
 doskey gs=git status -s $*
 
+:: NPM aliases
+doskey nr=npm run $*
+
 :: VS Code aliases
 doskey c.=code .
 doskey code.=code .
