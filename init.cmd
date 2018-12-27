@@ -43,6 +43,7 @@ doskey ga.=git add . $*
 doskey gb=git branch $*
 doskey gc=git commit $*
 doskey gcm=git commit -m $*
+doskey gco=git checkout $*
 doskey gmm=git merge master $*
 doskey gpl=git pull $*
 doskey gpu=git push $*
