@@ -63,4 +63,4 @@ Work Globals:
 
 ## License
 
-MIT © [Austin Gordon](https://www.austinleegordon.com)
+MIT © [Austin Gordon](https://www.austinleegordon.com/)
