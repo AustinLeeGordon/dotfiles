@@ -17,9 +17,7 @@ if "%installvscodeextensions%" == "y" (
     code --install-extension austinleegordon.vscode-schema-dot-org
     code --install-extension editorconfig.editorconfig
     code --install-extension mikestead.dotenv
-    code --install-extension mikestead.dotenv
     code --install-extension wix.vscode-import-cost
-    code --install-extension esbenp.prettier-vscode
     code --install-extension esbenp.prettier-vscode
 )
 
