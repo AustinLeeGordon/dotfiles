@@ -4,7 +4,7 @@
 :: Opens Chrome to the ngrok dashboard and calls ngrok
 :: Requires:
 ::   - ngrok (https://ngrok.com/)
-::   - chrome (https://www.google.com/chrome/)
+::   - Chrome (https://www.google.com/chrome/)
 
 set exepath=%dotfiles%\lib\ngrok\ngrok.exe
 
