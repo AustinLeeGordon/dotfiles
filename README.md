@@ -49,6 +49,7 @@ Default Globals:
 
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli)
 - [empty-trash-cli](https://github.com/sindresorhus/empty-trash-cli)
+- [flatten-dir-cli](https://github.com/hutsoninc/flatten-dir-cli)
 - [nodetouch](https://github.com/isaacs/node-touch)
 - [public-ip-cli](https://github.com/sindresorhus/public-ip-cli)
 - [serve](https://github.com/zeit/serve)
