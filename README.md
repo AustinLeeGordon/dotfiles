@@ -52,6 +52,7 @@ Default Globals:
 - [flatten-dir-cli](https://github.com/hutsoninc/flatten-dir-cli)
 - [nodetouch](https://github.com/isaacs/node-touch)
 - [public-ip-cli](https://github.com/sindresorhus/public-ip-cli)
+- [script-list](https://github.com/rousan/sl)
 - [serve](https://github.com/zeit/serve)
 - [trash-cli](https://github.com/sindresorhus/trash-cli)
 - [wt-cli](https://github.com/auth0/wt-cli)
