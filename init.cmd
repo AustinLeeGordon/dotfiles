@@ -53,6 +53,7 @@ doskey gs=git status -s $*
 
 :: NPM aliases
 doskey nr=npm run $*
+doskey nrd=npm run dev
 
 :: VS Code aliases
 doskey c.=code .
