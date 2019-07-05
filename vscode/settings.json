@@ -1,0 +1,12 @@
+{
+  "window.zoomLevel": 0,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "prettier.endOfLine": "lf",
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.colorTheme": "Night Owl",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Victor Mono', Consolas, 'Courier New', monospace"
+}
