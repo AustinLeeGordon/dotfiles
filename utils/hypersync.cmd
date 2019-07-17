@@ -4,7 +4,7 @@
 :: Sync Hyper settings
 :: Requires Hyper (https://hyper.is/)
 
-set hyperconfigpath=%userprofile%\.hyper.js
+set hyperconfigpath=%appdata%\Hyper\.hyper.js
 
 if exist "%hyperconfigpath%" (
     set /p hyperconfigoverwrite="Would you like to overwrite the current .hyper.js file? (y/n):"
@@ -13,7 +13,7 @@ if exist "%hyperconfigpath%" (
 )
 
 if "%hyperconfigoverwrite%" == "y" (
-    copy %dotfiles%\hyper\.hyper.js %userprofile%\.hyper.js
+    copy %dotfiles%\hyper\.hyper.js %hyperconfigpath%
     echo Copied .hyper.js settings
 )
 

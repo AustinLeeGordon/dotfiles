@@ -1,12 +1,24 @@
 {
   "window.zoomLevel": 0,
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-  "prettier.endOfLine": "lf",
-  "prettier.tabWidth": 2,
+  "prettier.endOfLine": "crlf",
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
   "prettier.singleQuote": true,
+  "prettier.tabWidth": 4,
   "prettier.trailingComma": "es5",
   "workbench.statusBar.feedback.visible": false,
   "workbench.colorTheme": "Night Owl",
-  "editor.tabSize": 2,
-  "editor.fontFamily": "'Victor Mono', Consolas, 'Courier New', monospace"
+  "editor.tabSize": 4,
+  "editor.fontFamily": "'Victor Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

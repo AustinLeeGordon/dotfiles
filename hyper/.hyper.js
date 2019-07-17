@@ -12,7 +12,7 @@ module.exports = {
         fontSize: 12,
 
         // font family with optional fallbacks
-        fontFamily: 'monospace',
+        fontFamily: '"Victor Mono", Consolas, "Courier New", monospace',
 
         // default font weight: 'normal' or 'bold'
         fontWeight: 'normal',
@@ -49,7 +49,7 @@ module.exports = {
         css: '',
 
         // custom CSS to embed in the terminal window
-        termCSS: '',
+        termCSS: 'letter-spacing: 1px;',
 
         // if you're using a Linux setup which show native menus, set to false
         // default: `true` on Linux, `true` on Windows, ignored on macOS
