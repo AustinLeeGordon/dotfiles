@@ -47,9 +47,10 @@ Run `npmsync.cmd` in the `utils` directory to install global packages.
 
 Default Globals:
 
+- [@hutsoninc/flatten-dir-cli](https://github.com/hutsoninc/flatten-dir-cli)
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli)
 - [empty-trash-cli](https://github.com/sindresorhus/empty-trash-cli)
-- [flatten-dir-cli](https://github.com/hutsoninc/flatten-dir-cli)
+- [nativefier](https://github.com/jiahaog/nativefier)
 - [nodetouch](https://github.com/isaacs/node-touch)
 - [public-ip-cli](https://github.com/sindresorhus/public-ip-cli)
 - [script-list](https://github.com/rousan/sl)
