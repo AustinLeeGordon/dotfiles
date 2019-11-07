@@ -23,6 +23,10 @@ To add startup scripts, open `Run` and type `shell:startup`, then paste a shortc
 - [Notepad++](https://notepad-plus-plus.org/)
 - [VS Code](https://code.visualstudio.com/)
 
+#### Other Requirements
+
+- [Victor Mono Font](https://rubjo.github.io/victor-mono/)
+
 ### Sync Settings
 
 Sync an individual setup using the commands below or step through all with `dotsync`.
