@@ -26,8 +26,8 @@ if exist "%gitmessagepath%" (
 
 if "%gitmessageoverwrite%" == "y" (
     copy %dotfiles%\git\gitmessage %userprofile%\.gitmessage
+    git config --global commit.template %userprofile%\.gitmessage
     echo Copied .gitmessage settings
-    echo Add the message to your global config: git config --global commit.message %userprofile%\.gitmessage
 )
 
 set gitconfigpath=
