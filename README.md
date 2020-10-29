@@ -56,9 +56,11 @@ Default Globals:
 - [empty-trash-cli](https://github.com/sindresorhus/empty-trash-cli)
 - [nativefier](https://github.com/jiahaog/nativefier)
 - [nodetouch](https://github.com/isaacs/node-touch)
+- [open-cli](https://github.com/sindresorhus/open-cli)
 - [public-ip-cli](https://github.com/sindresorhus/public-ip-cli)
 - [script-list](https://github.com/rousan/sl)
 - [serve](https://github.com/zeit/serve)
+- [serverless](https://github.com/serverless/serverless)
 - [trash-cli](https://github.com/sindresorhus/trash-cli)
 - [wt-cli](https://github.com/auth0/wt-cli)
 
