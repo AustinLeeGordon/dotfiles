@@ -25,7 +25,7 @@ set /p installworknpmpackages="Would you like to install work global NPM package
 
 if "%installworknpmpackages%" == "y" (
     set installpackages=true
-    set packagelist=%packagelist% file-ranger gatsby-cli generator-hutson @sanity/cli
+    set packagelist=%packagelist% file-ranger gatsby-cli generator-hutson @sanity/cli lerna
 )
 
 if "%installpackages%" == "true" (
