@@ -69,6 +69,7 @@ Work Globals:
 - [file-ranger](https://github.com/hutsoninc/file-ranger)
 - [gatsby-cli](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-cli)
 - [generator-hutson](https://github.com/hutsoninc/generator-hutson)
+- [@sanity/cli](https://github.com/sanity-io/sanity)
 
 ## License
 
