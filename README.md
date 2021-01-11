@@ -4,7 +4,7 @@ Tools to make my life easier. Feel free to repurpose these for your own use.
 
 ## Usage
 
-Run `regedit` and add the path to `init.cmd` to a new string value entry under `HKEY_CURRENT_USER/Software/Microsoft/Command Processor/`.
+Run `regedit`, navigate to `HKEY_CURRENT_USER/Software/Microsoft/Command Processor/` and add a new string value entry named `AutoRun` with the path to `init.cmd`. 
 
 To add startup scripts, open `Run` and type `shell:startup`, then paste a shortcut to any startup scripts.
 
