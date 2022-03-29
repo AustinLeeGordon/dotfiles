@@ -17,7 +17,7 @@ To add startup scripts, open `Run` and type `shell:startup`, then paste a shortc
 - [Google Chrome](https://www.google.com/chrome/)
 - [Hyper](https://hyper.is/#installation)
 - [Mongo](https://www.mongodb.com/download-center/enterprise) - Version 4.0.X
-- [ngrok](https://ngrok.com/) - Add `ngrok.exe` to `lib/ngrok/`
+- [ngrok](https://dashboard.ngrok.com/get-started/setup) - Add `ngrok.exe` to `lib/ngrok/`
 - [nodetouch](https://github.com/isaacs/node-touch)
 - [Node.js](https://nodejs.org/en/)
 - [Notepad++](https://notepad-plus-plus.org/)
