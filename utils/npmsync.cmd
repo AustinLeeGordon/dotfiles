@@ -18,14 +18,14 @@ set /p installnpmpackages="Would you like to install global NPM packages? (y/n):
 
 if "%installnpmpackages%" == "y" (
     set installpackages=true
-    set packagelist=@hutsoninc/flatten-dir-cli clipboard-cli empty-trash-cli kill-port nativefier touch open-cli public-ip-cli script-list serve serverless trash-cli wt-cli
+    set packagelist=@hutsoninc/flatten-dir-cli @sanity/cli clipboard-cli empty-trash-cli gatsby-cli kill-port lerna open-cli public-ip-cli script-list serve serverless touch trash-cli yarn
 )
 
 set /p installworknpmpackages="Would you like to install work global NPM packages? (y/n):"
 
 if "%installworknpmpackages%" == "y" (
     set installpackages=true
-    set packagelist=%packagelist% file-ranger gatsby-cli generator-hutson @sanity/cli lerna
+    set packagelist=%packagelist% generator-hutson
 )
 
 if "%installpackages%" == "true" (
