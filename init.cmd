@@ -5,10 +5,10 @@
 
 :: Add mongo to path
 :: Requires Mongo version 4.0.X (https://www.mongodb.com/download-center/enterprise)
-set PATH=%path%;"%programfiles%\MongoDB\Server\4.0\bin\"
+:: set PATH=%path%;"%programfiles%\MongoDB\Server\4.0\bin\"
 
 :: Add variable for dotfiles path
-set dotfiles=%userprofile%\projects\dotfiles
+set dotfiles=%userprofile%\Code\dotfiles
 
 :: Bin aliases
 set PATH=%path%;%dotfiles%\bin\
@@ -23,7 +23,7 @@ doskey ....=cd ..\..\..\$*
 doskey dl=cd %userprofile%\Downloads
 doskey dt=cd %userprofile%\Desktop
 doskey db=cd "%userprofile%\Dropbox (Hutson Inc)"
-doskey p=cd %userprofile%\projects
+doskey c=cd %userprofile%\Code
 doskey dot=cd %dotfiles%
 
 :: Generic aliases
