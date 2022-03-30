@@ -18,6 +18,10 @@ if "%installvscodeextensions%" == "y" (
     code --install-extension mikestead.dotenv
     code --install-extension wix.vscode-import-cost
     code --install-extension esbenp.prettier-vscode
+    code --install-extension PKief.material-icon-theme
+    code --install-extension BriteSnow.vscode-toggle-quotes
+    code --install-extension eamodio.gitlens
+    code --install-extension GraphQL.vscode-graphql
 )
 
 set /p vscodeconfigoverwrite="Would you like to overwrite the VS Code user settings file? (y/n):"
