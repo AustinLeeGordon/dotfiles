@@ -60,3 +60,6 @@ doskey nrt=npm run test
 :: VS Code aliases
 doskey c.=code .
 doskey code.=code .
+
+:: Other
+doskey weather=curl wttr.in $*
