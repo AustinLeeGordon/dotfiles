@@ -23,6 +23,7 @@ if "%installvscodeextensions%" == "y" (
     code --install-extension eamodio.gitlens
     code --install-extension GraphQL.vscode-graphql
     code --install-extension salesforce.salesforcedx-vscode-expanded
+    code --install-extension fabric.vscode-fabric
 )
 
 set /p vscodeconfigoverwrite="Would you like to overwrite the VS Code user settings file? (y/n):"
