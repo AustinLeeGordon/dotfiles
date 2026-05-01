@@ -11,16 +11,18 @@ To add startup scripts, open `Run` and type `shell:startup`, then paste a shortc
 ### Requirements
 
 - [7-Zip](https://www.7-zip.org/)
+- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest&pivots=winget)
+- [Claude CLI](https://code.claude.com/docs/en/quickstart)
 - [fd](https://github.com/sharkdp/fd) - Add `fd.exe` to `lib/fd/`
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [Git](https://git-scm.com/downloads)
+- [GitHub CLI](https://cli.github.com/)
 - [Google Chrome](https://www.google.com/chrome/)
 - [Hyper](https://hyper.is/#installation)
-- [Mongo](https://www.mongodb.com/download-center/enterprise) - Version 4.0.X
 - [ngrok](https://dashboard.ngrok.com/get-started/setup) - Add `ngrok.exe` to `lib/ngrok/`
 - [nodetouch](https://github.com/isaacs/node-touch)
 - [Node.js](https://nodejs.org/en/)
 - [Notepad++](https://notepad-plus-plus.org/)
+- [ODBC Driver 18 for SQL Server](https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver17)
 - [VS Code](https://code.visualstudio.com/)
 
 #### Other Requirements
@@ -51,26 +53,14 @@ Run `npmsync.cmd` in the `utils` directory to install global packages.
 
 Default Globals:
 
-- [@hutsoninc/flatten-dir-cli](https://github.com/hutsoninc/flatten-dir-cli)
 - [@sanity/cli](https://github.com/sanity-io/sanity)
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli)
 - [empty-trash-cli](https://github.com/sindresorhus/empty-trash-cli)
-- [gatsby-cli](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-cli)
 - [kill-port](https://github.com/tiaanduplessis/kill-port)
-- [lerna](https://github.com/lerna/lerna)
 - [nodetouch](https://github.com/isaacs/node-touch)
 - [open-cli](https://github.com/sindresorhus/open-cli)
 - [public-ip-cli](https://github.com/sindresorhus/public-ip-cli)
-- [script-list](https://github.com/rousan/sl)
 - [serve](https://github.com/zeit/serve)
 - [serverless](https://github.com/serverless/serverless)
 - [trash-cli](https://github.com/sindresorhus/trash-cli)
 - [yarn](https://yarnpkg.com/)
-
-Work Globals:
-
-- [generator-hutson](https://github.com/hutsoninc/generator-hutson)
-
-## License
-
-MIT © [Austin Gordon](https://www.austinleegordon.com/)
